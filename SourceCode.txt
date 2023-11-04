@@ -1,0 +1,244 @@
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haseeb Abid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <a href="http://127.0.0.1:3000/index.html">Haseeb Abid</a>
+            <a href="#1">Contact</a>
+        </div>
+    </header>
+    <div class="Hey">
+        <h1>
+            Hey! This is Haseeb Abid
+            <img src="haseeb.jpg" alt="" srcset="">
+        </h1>
+    </div>
+    <div class="Fun">
+        <h1>
+            Never Heard ?</h1>
+        <h2>
+            Well, Can’t Blame You.
+        </h2>
+    </div>
+    <div class="introhead">
+        <h1>
+            Let Me Introduce Myself
+        </h1>
+    </div>
+    <div class="Intro">
+        <p>
+            I like writting codes and seeing those codes come to life in front of my eyes. I am a passionate learner. I
+            am a beginner in C++ and Web development. I also have been a passionate gamer and love the idea of me seeing
+            a game written and designed by me to be brought to life on numerous platforms. I also have just started
+            learning Digital Marketing.
+        </p>
+        <p>
+            This website is my digital playground. Here I will be testing whatever I will be learning. So it's a work in
+            progress. Actually I learnt HTML and CSS while making this website. You can access the source code below
+            too. Keep coming to see what I add here. Thanks for visiting.
+        </p>
+    </div>
+    <div id="1" class="Social">
+        You Probably Got Here From One Of My Social
+        <br>
+        Here Are Some Other Ways To Contact Me
+    </div>
+    <div class="imagerow1">
+        <a target="_blank" href="https://www.instagram.com/activator.senpai/"><img src="instagram.png"
+                alt="instagram"></a>
+        <a target="_blank" href="https://discord.gg/cUBGCJMHpF"><img src="discord.png" alt="Discord"></a>
+        <a target="_blank" href="https://github.com/haseebabid72"><img src="Github.png" alt="GitHub"></a>
+    </div>
+    <div class="imagerow2">
+        <a href="https://twitter.com/HaseebA99726026"><img src="twitter.jpg" alt="twitter(X)"></a>
+        <a href="https://github.com/haseebabid72/My-Repository.git"><img src="Github.png" alt="GitHub Repository"></a>
+        <a href="mailto:haseebabid72@outlook.com"><img src="Outlook.png" alt=""></a>
+    </div>
+    <div>
+
+    </div>
+    <div class="SourceCode">
+        <br><br><br><br><br><br><br><br>
+        <h1>
+            Access the Souce Code below
+        </h1>
+        <a href="">Source Code</a>
+    </div>
+</body>
+
+</html>
+
+
+CSS:
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    margin: 5vw;
+    width: 87vw;
+    color: #FFFCFC;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 400;
+    /* line-height: 27.5px; */
+    /* 125% */
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 89vw;
+}
+
+.head a :nth-child(1) {
+    text-align: left;
+}
+
+.Hey {
+    width: 87vw;
+    flex-shrink: 0;
+    margin-left: 5vw;
+    margin-top: 60px;
+    color: #DB8063;
+
+    font-family: 'Outfit';
+    font-size: 2.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 81.5px;
+    /* 84.896% */
+}
+
+img {
+    margin-right: 1vw;
+    float: right;
+    width: 30vw;
+    height: 30vw;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Fun {
+    width: 89vw;
+    flex-shrink: 0;
+    margin-left: 5vw;
+    color: #DB8063;
+    font-family: 'Outfit';
+    font-size: 2.6vw;
+    font-style: normal;
+    font-weight: 400;
+    /* 84.896% */
+}
+
+.introhead {
+    margin: auto;
+    width: 89vw;
+}
+
+.introhead h1 {
+    width: 89vw;
+    color: #0FFFC5;
+    font-family: 'Outfit';
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+
+    /* 169.792% */
+}
+
+.Intro {
+    margin: auto;
+    width: 89vw;
+    color: #ffffff;
+    font-family: 'poppins';
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Social {
+    color: #e100ff;
+    width: 89vw;
+    margin-left: 5vw;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4vw;
+    /* 169.792% */
+    letter-spacing: -0.48px;
+    text-transform: capitalize;
+}
+
+
+.imagerow1 a :nth-child(1) {
+    display: flex;
+    align-content: space-evenly;
+    margin-right: 13vw;
+    width: 15vw;
+    height: 15vw;
+    flex-shrink: 0;
+}
+
+.imagerow2 a :nth-child(1) {
+    display: flex;
+    align-content: space-evenly;
+    margin-right: 13vw;
+    width: 15vw;
+    height: 15vw;
+    flex-shrink: 0;
+    margin-top: 2vw;
+}
+
+.SourceCode {
+    width: 89vw;
+    margin-left: 5vw;
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 3vw;
+}
+
+.SourceCode h1 {
+    width: 89vw;
+    color: #d16262;
+
+    text-align: center;
+    font-family: Outfit;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 20;
+    line-height: 5vw;
+    /* 169.792% */
+    letter-spacing: -0.48px;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFCFC;
+}
+
+
+body {
+    background: #040D2D;
+    color: #ffffff;
+}
