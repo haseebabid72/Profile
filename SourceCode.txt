@@ -1,3 +1,5 @@
+HTML:
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -70,3 +72,171 @@
 </body>
 
 </html>
+
+
+
+CSS:
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    margin: 5vw;
+    width: 87vw;
+    color: #FFFCFC;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 400;
+    /* line-height: 27.5px; */
+    /* 125% */
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 89vw;
+}
+
+.head a :nth-child(1) {
+    text-align: left;
+}
+
+.Hey {
+    width: 87vw;
+    flex-shrink: 0;
+    margin-left: 5vw;
+    margin-top: 60px;
+    color: #DB8063;
+
+    font-family: 'Outfit';
+    font-size: 2.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 81.5px;
+    /* 84.896% */
+}
+
+img {
+    margin-right: 1vw;
+    float: right;
+    width: 30vw;
+    height: 30vw;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Fun {
+    width: 89vw;
+    flex-shrink: 0;
+    margin-left: 5vw;
+    color: #DB8063;
+    font-family: 'Outfit';
+    font-size: 2.6vw;
+    font-style: normal;
+    font-weight: 400;
+    /* 84.896% */
+}
+
+.introhead {
+    margin: auto;
+    width: 89vw;
+}
+
+.introhead h1 {
+    width: 89vw;
+    color: #0FFFC5;
+    font-family: 'Outfit';
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+
+    /* 169.792% */
+}
+
+.Intro {
+    margin: auto;
+    width: 89vw;
+    color: #ffffff;
+    font-family: 'poppins';
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Social {
+    color: #e100ff;
+    width: 89vw;
+    margin-left: 5vw;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4vw;
+    /* 169.792% */
+    letter-spacing: -0.48px;
+    text-transform: capitalize;
+}
+
+
+.imagerow1 a :nth-child(1) {
+    display: flex;
+    align-content: space-evenly;
+    margin-right: 13vw;
+    width: 15vw;
+    height: 15vw;
+    flex-shrink: 0;
+}
+
+.imagerow2 a :nth-child(1) {
+    display: flex;
+    align-content: space-evenly;
+    margin-right: 13vw;
+    width: 15vw;
+    height: 15vw;
+    flex-shrink: 0;
+    margin-top: 2vw;
+}
+
+.SourceCode {
+    width: 89vw;
+    margin-left: 5vw;
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 3vw;
+}
+
+.SourceCode h1 {
+    width: 89vw;
+    color: #d16262;
+
+    text-align: center;
+    font-family: Outfit;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 20;
+    line-height: 5vw;
+    /* 169.792% */
+    letter-spacing: -0.48px;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFCFC;
+}
+
+
+body {
+    background: #040D2D;
+    color: #ffffff;
+}
+
